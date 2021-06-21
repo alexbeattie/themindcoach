@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div>
       <h1>The Mind Coach</h1>
+      <h2>Alex Beattie & Michele Guzy</h2>
     </div>
   )
 }

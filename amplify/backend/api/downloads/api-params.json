@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "themindcoachc4997ac9",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "downloads",
+    "apiName": "downloads",
+    "functionArns": [
+        {
+            "lambdaFunction": "themindcoachc4997ac9"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-amplify6f688b808ec64-staging-213939-authRole",
+        "unAuthRoleName": "amplify-amplify6f688b808ec64-staging-213939-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "themindcoachc4997ac9",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
